@@ -1,0 +1,26 @@
+.categories {
+    background-color: antiquewhite;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories ul {
+    list-style: none;
+    display: flex;
+}
+
+.categories ul li {
+    padding: 20px;
+}
+
+.categories ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.categories ul li a:hover {
+    color: #ff637e;
+    text-decoration: underline;
+}

@@ -1,0 +1,171 @@
+.delete-back {
+    height: 650px;
+}
+
+.from-tab-delete {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.from-tab-delete a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+}
+
+.from-tab-delete a:hover {
+    color: #ff637e;
+    text-decoration: underline;
+}
+
+.delete-image {
+    height: 550px;
+    background-image: url("/FashionFlix-Website/Photos/login-image.png");
+    background-size: cover;
+}
+
+.delete-form-1 {
+    height: 220px;
+    display: flex;
+    align-items: last baseline;
+    margin-left: 35px;
+}
+
+.delete-form-2 {
+    height: 256px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+#productname {
+    height: 45px;
+    width: 330px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#label-name {
+    position: relative;
+    right: 348px;
+    pointer-events: none;
+}
+
+#productname:focus~#label-name, #productname:valid~#label-name {
+    position: relative;
+    top: -16px;
+    right: 348px;
+    font-size: 10px;
+}
+
+.break-1 {
+    height: 20px;
+}
+
+#price {
+    height: 45px;
+    width: 330px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#label-price {
+    position: relative;
+    right: 348px;
+    pointer-events: none;
+}
+
+#price:focus~#label-price, #price:valid~#label-price {
+    position: relative;
+    top: -16px;
+    right: 348px;
+    font-size: 10px;
+}
+
+.break-2 {
+    height: 20px;
+}
+
+#discount {
+    height: 45px;
+    width: 330px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#label-discount {
+    position: relative;
+    right: 348px;
+    pointer-events: none;
+}
+
+#discount:focus~#label-discount, #discount:valid~#label-discount {
+    position: relative;
+    top: -16px;
+    right: 348px;
+    font-size: 10px;
+}
+
+.break-3 {
+    height: 5px;
+}
+
+#itemDelete {
+    height: 45px;
+    width: 355px;
+    color: black;
+    background-color: antiquewhite;
+    border: 2px solid #ff637e;
+}
+
+#itemDelete:hover {
+    color: #ff637e;
+    cursor: pointer;
+}
+
+.break-4 {
+    height: 20px;
+}
+
+#productnameChange {
+    height: 45px;
+    width: 330px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#label-name-change {
+    position: relative;
+    right: 348px;
+    pointer-events: none;
+}
+
+#pproductnameChange:focus~#label-name-change, #productnameChange:valid~#label-name-change {
+    position: relative;
+    top: -16px;
+    right: 348px;
+    font-size: 10px;
+}
+
+#itemChange {
+    height: 45px;
+    width: 355px;
+    color: black;
+    background-color: antiquewhite;
+    border: 2px solid #ff637e;
+}
+
+#itemChange:hover {
+    color: #ff637e;
+    cursor: pointer;
+}

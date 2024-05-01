@@ -1,0 +1,50 @@
+.terms-body {
+    height: 2600px;
+}
+
+.from-tab-terms {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.from-tab-terms a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+}
+
+.from-tab-terms a:hover {
+    color: #ff637e;
+    text-decoration: underline;
+}
+
+.terms-head {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terms-head h1 {
+    color: #ff637e;
+    font-size: 40px;
+}
+
+.terms-para {
+    height: 400px;
+    position: relative;
+    top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    z-index: -1;
+}
+
+#link {
+    color: black;
+}
+
+#link:hover {
+    color: #ff637e;
+}

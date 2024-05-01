@@ -1,0 +1,262 @@
+.checkout-body {
+    height: 720px;
+}
+
+.from-tab-checkout {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.from-tab-checkout a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+}
+
+.from-tab-checkout a:hover {
+    color: #ff637e;
+    text-decoration: underline;
+}
+
+.checkout-head {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout-head h1 {
+    color: #ff637e;
+    font-size: 40px;
+}
+
+.checkout-form {
+    height: 430px;
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-form form {
+    position: relative;
+    top: 50px;
+    height: 550px;
+}
+
+#checkout-name {
+    height: 45px;
+    width: 320px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#label-name {
+    height: 100%;
+    position: absolute;
+    left: 1px;
+    top: 4px;
+    padding: 11px;
+    font-size: 15px;
+    transition: 0.1s ease;
+    pointer-events: none;
+}
+
+#checkout-name:focus~#label-name, #checkout-name:valid~#label-name {
+    position: absolute;
+    top: -6px;
+    font-size: 10px;
+}
+
+#checkout-email {
+    height: 45px;
+    width: 320px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#label-email {
+    height: 100%;
+    position: absolute;
+    left: 361px;
+    top: 4px;
+    padding: 11px;
+    font-size: 15px;
+    transition: 0.1s ease;
+    pointer-events: none;
+}
+
+#checkout-email:focus~#label-email, #checkout-email:valid~#label-email {
+    position: absolute;
+    top: -6px;
+    font-size: 10px;
+}
+
+#checkout-phone {
+    height: 45px;
+    width: 680px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#checkout-phone ::-webkit-outer-spin-button, ::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+#label-phone {
+    height: 100%;
+    position: absolute;
+    left: 1px;
+    top: 71px;
+    padding: 11px;
+    font-size: 15px;
+    transition: 0.1s ease;
+    pointer-events: none;
+}
+
+#checkout-phone:focus~#label-phone, #checkout-phone:valid~#label-phone {
+    position: absolute;
+    top: 60px;
+    font-size: 10px;
+}
+
+#checkout-country {
+    height: 51px;
+    width: 705px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#checkout-state {
+    height: 45px;
+    width: 680px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#label-state {
+    height: 100%;
+    position: absolute;
+    left: 1px;
+    top: 208px;
+    padding: 11px;
+    font-size: 15px;
+    transition: 0.1s ease;
+    pointer-events: none;
+}
+
+#checkout-state:focus~#label-state, #checkout-state:valid~#label-state {
+    position: absolute;
+    top: 198px;
+    font-size: 10px;
+}
+
+#checkout-city {
+    height: 45px;
+    width: 680px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#label-city {
+    height: 100%;
+    position: absolute;
+    left: 1px;
+    top: 276px;
+    padding: 11px;
+    font-size: 15px;
+    transition: 0.1s ease;
+    pointer-events: none;
+}
+
+#checkout-city:focus~#label-city, #checkout-city:valid~#label-city {
+    position: absolute;
+    top: 264px;
+    font-size: 10px;
+}
+
+#checkout-address {
+    height: 45px;
+    width: 680px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#label-address {
+    height: 100%;
+    position: absolute;
+    left: 1px;
+    top: 343px;
+    padding: 11px;
+    font-size: 15px;
+    transition: 0.1s ease;
+    pointer-events: none;
+}
+
+#checkout-address:focus~#label-address, #checkout-address:valid~#label-address {
+    position: absolute;
+    top: 331px;
+    font-size: 10px;
+}
+
+#checkout-code {
+    height: 45px;
+    width: 680px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#checkout-code ::-webkit-outer-spin-button, ::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+#label-code {
+    height: 100%;
+    position: absolute;
+    left: 1px;
+    top: 410px;
+    padding: 11px;
+    font-size: 15px;
+    transition: 0.1s ease;
+    pointer-events: none;
+}
+
+#checkout-code:focus~#label-code, #checkout-code:valid~#label-code {
+    position: absolute;
+    top: 398px;
+    font-size: 10px;
+}
+
+.checkout-form form button {
+    height: 45px;
+    width: 170px;
+    background-color: antiquewhite;
+    border: 2px solid #ff637e;
+    cursor: pointer;
+    position: relative;
+    left: 536px;
+}
+
+.checkout-form form button:hover {
+    color: #ff637e;
+    cursor: pointer;
+}

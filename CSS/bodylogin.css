@@ -1,0 +1,154 @@
+.login-back {
+    height: 650px;
+}
+
+.from-tab-login {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.from-tab-login a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+}
+
+.from-tab-login a:hover {
+    color: #ff637e;
+    text-decoration: underline;
+}
+
+.login-image {
+    height: 550px;
+    background-image: url("/FashionFlix-Website/Photos/login-image.png");
+    background-size: cover;
+}
+
+.login-form {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+#login-email {
+    height: 45px;
+    width: 330px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#label-email {
+    position: relative;
+    right: 348px;
+    pointer-events: none;
+}
+
+#login-email:focus~#label-email, #login-email:valid~#label-email {
+    position: relative;
+    top: -16px;
+    right: 348px;
+    font-size: 10px;
+}
+
+.break-1 {
+    height: 5px;
+}
+
+#login-password {
+    height: 45px;
+    width: 330px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#label-password {
+    position: relative;
+    right: 348px;
+    pointer-events: none;
+}
+
+#login-password:focus~#label-password, #login-password:valid~#label-password {
+    position: relative;
+    top: -16px;
+    right: 348px;
+    font-size: 10px;
+}
+
+.break-2 {
+    height: 20px;
+}
+
+#login-button {
+    height: 45px;
+    width: 355px;
+    color: black;
+    background-color: antiquewhite;
+    border: 2px solid #ff637e;
+}
+
+#login-button:hover {
+    color: #ff637e;
+    cursor: pointer;
+}
+
+.break-3 {
+    height: 20px;
+}
+
+#forgot {
+    text-decoration: none;
+    color: white;
+    margin-left: 114px;
+}
+
+.break-4 {
+    height: 20px;
+}
+
+#line {
+    width: 355px;
+}
+
+.break-5 {
+    height: 20px;
+}
+
+#new {
+    color: white;
+}
+
+.break-6 {
+    height: 20px;
+}
+
+#signup-button {
+    height: 45px;
+    width: 355px;
+    color: black;
+    background-color: antiquewhite;
+    border: 2px solid #ff637e;
+    position: relative;
+    bottom: 138px;
+    left: 35px;
+}
+
+#signup-button:hover {
+    color: #ff637e;
+    cursor: pointer;
+}
+
+.error {
+    color: white;
+    font-size: 14px;
+}
+
+.fa-exclamation-circle {
+    color: red;
+}

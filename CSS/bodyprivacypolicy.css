@@ -1,0 +1,50 @@
+.privacy-body {
+    height: 1045px;
+}
+
+.from-tab-privacy {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.from-tab-privacy a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+}
+
+.from-tab-privacy a:hover {
+    color: #ff637e;
+    text-decoration: underline;
+}
+
+.privacy-head {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.privacy-head h1 {
+    color: #ff637e;
+    font-size: 40px;
+}
+
+.privacy-para {
+    height: 400px;
+    position: relative;
+    top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    z-index: -1;
+}
+
+#bold {
+    font-weight: 700;
+}
+
+.privacy-para ul {
+    margin-left: 15px;
+}

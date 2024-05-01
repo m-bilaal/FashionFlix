@@ -1,0 +1,93 @@
+.checkout-body {
+    height: 720px;
+}
+
+.from-tab-checkout {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.from-tab-checkout a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+}
+
+.from-tab-checkout a:hover {
+    color: #ff637e;
+    text-decoration: underline;
+}
+
+.checkout-head {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout-head h1 {
+    color: #ff637e;
+    font-size: 40px;
+}
+
+.checkout-form {
+    height: 430px;
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-form form {
+    position: relative;
+    top: 50px;
+    height: 257px;
+    width: 500px;
+    border: 2px solid #ff637e;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.card {
+    position: relative;
+    left: 272px;
+    top: 10px;
+    font-size: 28px;
+    padding-right: 14px;
+}
+
+.pay-1 {
+    position: relative;
+    left: 375px;
+    top: 10px;
+    font-size: 28px;
+    padding-right: 14px;
+}
+
+.pay-2 {
+    position: relative;
+    left: 364px;
+    top: 10px;
+    font-size: 28px;
+    padding-right: 14px;
+}
+
+.break {
+    border-top: 2px solid #ff637e;
+}
+
+.checkout-form form button {
+    height: 45px;
+    width: 170px;
+    background-color: antiquewhite;
+    border: 2px solid #ff637e;
+    cursor: pointer;
+    position: relative;
+    left: 362px;
+    top: 44px;
+}
+
+.checkout-form form button:hover {
+    color: #ff637e;
+    cursor: pointer;
+}

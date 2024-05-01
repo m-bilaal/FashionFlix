@@ -1,0 +1,42 @@
+.shipping-body {
+    height: 530px;
+}
+
+.from-tab-shipping {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.from-tab-shipping a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+}
+
+.from-tab-shipping a:hover {
+    color: #ff637e;
+    text-decoration: underline;
+}
+
+.shipping-head {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shipping-head h1 {
+    color: #ff637e;
+    font-size: 40px;
+}
+
+.shipping-para {
+    height: 400px;
+    position: relative;
+    top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    z-index: -1;
+}

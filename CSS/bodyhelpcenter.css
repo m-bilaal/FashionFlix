@@ -1,0 +1,72 @@
+.help-body {
+    height:1308px;
+}
+
+.from-tab-help {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.from-tab-help a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+}
+
+.from-tab-help a:hover {
+    color: #ff637e;
+    text-decoration: underline;
+}
+
+.help-head {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-head h1 {
+    color: #ff637e;
+    font-size: 40px;
+}
+
+.help-para {
+    height: 400px;
+    position: relative;
+    top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    z-index: -1;
+}
+
+#link {
+    color: black;
+}
+
+#link:hover {
+    color: #ff637e;
+}
+
+.faq-answer {
+    display: none;
+}
+
+.faq-item i {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+/* Styles for the plus and minus icons */
+.fas {
+    cursor: pointer;
+  }
+  
+  /* Hide the FAQ answer content by default */
+  .faq-answer {
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out; /* Add a smooth transition effect */
+    max-height: 0;
+  }
+  

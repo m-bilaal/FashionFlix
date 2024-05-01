@@ -1,0 +1,369 @@
+.home-back {
+    height: 889.5px;
+}
+
+.home-video {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    z-index: -1;
+}
+
+.home-video video {
+    height: 889.5px;
+}
+
+.home-text {
+    height: 889.5px;
+    display: flex;
+    align-items: center;
+}
+
+.home-text div {
+    margin-left: 35px;
+}
+
+.home-text div h1 {
+    font-size: 64px;
+    color: #ff637e;
+}
+
+.home-text div h2 {
+    font-size: 54px;
+    color: antiquewhite;
+}
+
+.home-text div p {
+    font-size: 20px;
+    color: white;
+}
+
+.home-text div button {
+    font-size: 20px;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 150px;
+    color: #ff637e;
+    border: 2px solid #ff637e;
+}
+
+.home-text div a button {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.home-text div a button:hover {
+    color: #ff637e;
+}
+
+.services-all {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.service {
+    background-image: url("/FashionFlix-Website/Photos/service.png");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.shipping {
+    background-image: url("/FashionFlix-Website/Photos/shipping.png");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.payments {
+    background-image: url("/FashionFlix-Website/Photos/payments.png");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.guarantee {
+    background-image: url("/FashionFlix-Website/Photos/guarantee.png");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.featured h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #ff637e;
+}
+
+.featured h4 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.collection-1 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 550px;
+    position: relative;
+    top: 50px;
+}
+
+.collection-1 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.collection-1 a:hover {
+    color: #ff637e;
+}
+
+.collection-1 a:hover div p {
+    color: black;
+}
+
+.collection-1 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.collection-1 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.collection-1 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.collection-1 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+.collection-2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.collection-2 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.collection-2 a:hover {
+    color: #ff637e;
+}
+
+.collection-2 a:hover div p {
+    color: black;
+}
+
+.collection-2 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.collection-2 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.collection-2 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.collection-2 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+.more-1 {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.more-1 a {
+    text-decoration: none;
+    color: black;
+    height: 40px;
+}
+
+.more-1 a button {
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    background-color: antiquewhite;
+    border: 2px solid #ff637e;
+}
+
+.more-1 a button:hover {
+    color: #ff637e;
+    cursor: pointer;
+}
+
+.new-arrivals h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #ff637e;
+}
+
+.new-arrivals h4 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.collect-1 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 550px;
+    position: relative;
+    top: 50px;
+}
+
+.collect-1 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.collect-1 a:hover {
+    color: #ff637e;
+}
+
+.collect-1 a:hover div p {
+    color: black;
+}
+
+.collect-1 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.collect-1 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.collect-1 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.collect-1 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+.collect-2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.collect-2 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.collect-2 a:hover {
+    color: #ff637e;
+}
+
+.collect-2 a:hover div p {
+    color: black;
+}
+
+.collect-2 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.collect-2 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.collect-2 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.collect-2 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+.more-2 {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.more-2 a {
+    text-decoration: none;
+    color: black;
+    height: 40px;
+}
+
+.more-2 a button {
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    background-color: antiquewhite;
+    border: 2px solid #ff637e;
+}
+
+.more-2 a button:hover {
+    color: #ff637e;
+    cursor: pointer;
+}
+
+#addtocart {
+    height: 40px;
+    width: 250px;
+    border: 2px solid #ff637e;
+    color: black;
+    background-color: antiquewhite;
+    position: relative;
+    left: 25px;
+    top: 6px;
+    cursor: pointer;
+}
+
+#addtocart:hover {
+    color: #ff637e;
+}

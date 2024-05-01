@@ -1,0 +1,532 @@
+.shop-back {
+    height: 600px;
+}
+
+.from-tab-shop {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.from-tab-shop a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+}
+
+.from-tab-shop a:hover {
+    color: #ff637e;
+    text-decoration: underline;
+}
+
+.image-back {
+    height: 500px;
+    background-image: url("/FashionFlix-Website/Photos/shop-image.jpg");
+    background-size: cover;
+}
+
+.all-items {
+    height: 5000px;
+}
+
+.items-1 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.items-1 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.items-1 a:hover {
+    color: #ff637e;
+}
+
+.items-1 a:hover div p {
+    color: black;
+}
+
+.items-1 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.items-1 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.items-1 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.items-1 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+.items-2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.items-2 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.items-2 a:hover {
+    color: #ff637e;
+}
+
+.items-2 a:hover div p {
+    color: black;
+}
+
+.items-2 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.items-2 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.items-2 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.items-2 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+.items-3 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.items-3 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.items-3 a:hover {
+    color: #ff637e;
+}
+
+.items-3 a:hover div p {
+    color: black;
+}
+
+.items-3 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.items-3 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.items-3 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.items-3 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+.items-4 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.items-4 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.items-4 a:hover {
+    color: #ff637e;
+}
+
+.items-4 a:hover div p {
+    color: black;
+}
+
+.items-4 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.items-4 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.items-4 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.items-4 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+.items-5 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.items-5 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.items-5 a:hover {
+    color: #ff637e;
+}
+
+.items-5 a:hover div p {
+    color: black;
+}
+
+.items-5 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.items-5 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.items-5 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.items-5 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+.items-6 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.items-6 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.items-6 a:hover {
+    color: #ff637e;
+}
+
+.items-6 a:hover div p {
+    color: black;
+}
+
+.items-6 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.items-6 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.items-6 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.items-6 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+.items-7 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.items-7 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.items-7 a:hover {
+    color: #ff637e;
+}
+
+.items-7 a:hover div p {
+    color: black;
+}
+
+.items-7 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.items-7 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.items-7 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.items-7 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+.items-8 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.items-8 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.items-8 a:hover {
+    color: #ff637e;
+}
+
+.items-8 a:hover div p {
+    color: black;
+}
+
+.items-8 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.items-8 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.items-8 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.items-8 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+.items-9 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.items-9 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.items-9 a:hover {
+    color: #ff637e;
+}
+
+.items-9 a:hover div p {
+    color: black;
+}
+
+.items-9 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.items-9 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.items-9 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.items-9 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+.items-10 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.items-10 a {
+    text-decoration: none;
+    color: black;
+    height: 400px;
+}
+
+.items-10 a:hover {
+    color: #ff637e;
+}
+
+.items-10 a:hover div p {
+    color: black;
+}
+
+.items-10 a div {
+    height: 450px;
+    width: 300px;
+    border: 2px solid #ff637e;
+}
+
+.items-10 a div img {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+.items-10 a div h6 {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+    width: 275px;
+}
+
+.items-10 a div p {
+    position: relative;
+    left: 25px;
+    width: 250px;
+}
+
+
+.items-11-to-20 {
+    display: none;
+    height: 5000px;
+}
+
+.more-3 {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.more-3 button {
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    background-color: antiquewhite;
+    border: 2px solid #ff637e;
+}
+
+.more-3 button:hover {
+    color: #ff637e;
+    cursor: pointer;
+}
+
+#addtocart {
+    height: 40px;
+    width: 250px;
+    border: 2px solid #ff637e;
+    color: black;
+    background-color: antiquewhite;
+    position: relative;
+    left: 25px;
+    top: 6px;
+    cursor: pointer;
+}
+
+#addtocart:hover {
+    color: #ff637e;
+}

@@ -1,0 +1,158 @@
+.track-body {
+    height: 705px;
+}
+
+.from-tab-track {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.from-tab-track a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+}
+
+.from-tab-track a:hover {
+    color: #ff637e;
+    text-decoration: underline;
+}
+
+.track-head {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.track-head h1 {
+    color: #ff637e;
+    font-size: 40px;
+}
+
+.track-form {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.track-form form {
+    z-index: -1;
+}
+
+#track-order {
+    height: 45px;
+    width: 330px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+    position: relative;
+    left: 52px;
+}
+
+#label-order {
+    position: relative;
+    right: 296px;
+    pointer-events: none;
+}
+
+#track-order:focus~#label-order, #track-order:valid~#label-order {
+    position: relative;
+    top: -16px;
+    right: 296px;
+    font-size: 10px;
+}
+
+.break-1 {
+    height: 5px;
+}
+
+#track-email {
+    height: 45px;
+    width: 330px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+    position: relative;
+    left: 52px;
+}
+
+#label-email {
+    position: relative;
+    right: 296px;
+    pointer-events: none;
+}
+
+#track-email:focus~#label-email, #track-email:valid~#label-email {
+    position: relative;
+    top: -16px;
+    right: 296px;
+    font-size: 10px;
+}
+
+.break-2 {
+    height: 20px;
+}
+
+#track-button-1 {
+    height: 45px;
+    width: 355px;
+    color: black;
+    background-color: antiquewhite;
+    border: 2px solid #ff637e;
+    position: relative;
+    left: 52px;
+}
+
+#track-button-1:hover {
+    color: #ff637e;
+    cursor: pointer;
+}
+
+#track-cn {
+    height: 45px;
+    width: 330px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+    position: relative;
+    left: 52px;
+}
+
+#label-cn {
+    position: relative;
+    right: 296px;
+    pointer-events: none;
+}
+
+#track-cn:focus~#label-cn, #track-cn:valid~#label-cn {
+    position: relative;
+    top: -16px;
+    right: 296px;
+    font-size: 10px;
+}
+
+.break-2 {
+    height: 20px;
+}
+
+#track-button-2 {
+    height: 45px;
+    width: 355px;
+    color: black;
+    background-color: antiquewhite;
+    border: 2px solid #ff637e;
+    position: relative;
+    left: 52px;
+}
+
+#track-button-2:hover {
+    color: #ff637e;
+    cursor: pointer;
+}

@@ -1,0 +1,143 @@
+.myprofile-body {
+    height: 860px;
+}
+
+.from-tab-myprofile {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.from-tab-myprofile a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+}
+
+.from-tab-myprofile a:hover {
+    color: #ff637e;
+    text-decoration: underline;
+}
+
+.myprofile-head {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myprofile-head h1 {
+    color: #ff637e;
+    font-size: 40px;
+}
+
+.myprofile-welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+
+.myprofile-info {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+#show-name {
+    border: 2px solid #ff637e;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#show-email {
+    border: 2px solid #ff637e;
+    width: 400px;
+    height: 50px;
+    border-top: none;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.myprofile-form {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-1 {
+    position: relative;
+    top: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-2 {
+    position: relative;
+    top: 260px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-3 {
+    position: relative;
+    top: 370px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#new_name {
+    height: 45px;
+    width: 410px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#new_email {
+    height: 45px;
+    width: 410px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#new_password {
+    height: 45px;
+    width: 410px;
+    padding-left: 11px;
+    padding-right: 11px;
+    outline-color: #ff637e;
+    font-size: 15px;
+}
+
+#update {
+    height: 45px;
+    width: 170px;
+    background-color: antiquewhite;
+    border: 2px solid #ff637e;
+    cursor: pointer;
+    position: relative;
+    left: 266px;
+}
+
+#update:hover {
+    color: #ff637e;
+    cursor: pointer;
+}

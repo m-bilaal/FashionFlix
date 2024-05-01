@@ -1,0 +1,42 @@
+.about-body {
+    height: 550px;
+}
+
+.from-tab-about {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.from-tab-about a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+}
+
+.from-tab-about a:hover {
+    color: #ff637e;
+    text-decoration: underline;
+}
+
+.about-head {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-head h1 {
+    color: #ff637e;
+    font-size: 40px;
+}
+
+.about-para {
+    height: 400px;
+    position: relative;
+    top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    z-index: -1;
+}
